@@ -1,5 +1,5 @@
 .env
 activate.bat
 staticfiles
-.pyc
+*.pyc
 __pycache__
