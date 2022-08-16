@@ -98,25 +98,25 @@
 
 				<!-- Mobile Menu Logo (only use if "close" buttons are set to false in JS) -->
 				<li data-nav-custom-content class="custom-content sk__mobile-menu-logo"> 
-					<a class="sk__mobile-navbar-brand" href="#"><img alt="Website mobile logo." src="{% static 'assets/images/Orange_Simple_Lion_Illustration_Esports_Team_Logo-removebg-preview.png' %}"></a>
+					<a class="sk__mobile-navbar-brand" href="#"><img alt="Website mobile logo." src="{% static 'assets/images/nobg-glob-nav.png' %}"></a>
 				</li>
 
 				<!-- Regular Menu Items Start -->
 				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="#">Home</a>
+					<a class="nav-link hvr-underline-from-center" href="#home">Home</a>
 				</li>
 
 				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="#">About Me</a>
+					<a class="nav-link hvr-underline-from-center" href="#about-us">About Me</a>
 					
 				</li>
 
 				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="#"></span></span>Portfolio</a> 
+					<a class="nav-link hvr-underline-from-center" href="#Portfolio"></span></span>Portfolio</a> 
 				</li>
 
 				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="#"></span></span>Contact</a> 
+					<a class="nav-link hvr-underline-from-center" href="#services"></span></span>Socials</a> 
 				</li>
 				
 				<!-- Regular Menu Items End -->
@@ -163,7 +163,7 @@
 			
 				<!-- Hero Section / Hero Slider
 				================================================== -->
-				<section class="sk__hero-section">
+				<section id="home" class="sk__hero-section">
 					<!-- Carousel -->
 					<div id="sk__hero-carousel-slider" class="carousel slide dark-shade-1-bg">
 				
@@ -606,7 +606,7 @@
 
 				<!-- Portfolio Section
 				================================================== -->
-				<section class="sk__portfolio-section sk__py-l dark-shade-2-bg sk__solid-menu-bar">
+				<section id="Portfolio" class="sk__portfolio-section sk__py-l dark-shade-2-bg sk__solid-menu-bar">
 					<div class="container-fluid">
 						<div class="row text-center">
 							<div class="col sk__heading-spacer-l">
@@ -959,18 +959,18 @@
 						<div class="row text-center">
 							<div class="col sk__heading-spacer-l">
 								<div class="cover-text-wrapper">
-									<h1 class="super-heading sk__clipped-text sk__gradient-back-v1 animated-element">Socials.-></h1>
+									<h1 class="super-heading sk__clipped-text sk__gradient-back-v1 animated-element">Socials -></h1>
 								</div>
 							</div>
 						</div>
 						<div class="row sk__iconboxes-wrapper text-center sk__flex-center-x">
 							<div class="col-12 col-sm-6 col-lg-4">
 								<div class="sk__iconbox">
-									<a class="sk__iconbox-icon-link" href="page-service-item.html">
+									<a class="sk__iconbox-icon-link" target="_blank" href="https://www.instagram.com/safarowfps/">
 										<span class="sk__flex-center sk__iconbox-icon"><span class="icon-instagram1 sk__gradient-fancy-text"></span></span>
 										<span class="sk__iconbox-icon-dash"></span>
 									</a>
-									<a class="sk__iconbox-text-link gradient-links-bright" href="page-service-item.html">
+									<a class="sk__iconbox-text-link gradient-links-bright" target="_blank" href="https://www.instagram.com/safarowfps/">
 										<h5>Instagram</h5>
 									</a>
 									{% comment %} <p>Superior Graphic Design by best-selling authors for the best Dark HTML theme</p> {% endcomment %}
@@ -978,11 +978,11 @@
 							</div>
 							<div class="col-12 col-sm-6 col-lg-4">
 								<div class="sk__iconbox">
-									<a class="sk__iconbox-icon-link" href="page-service-item.html">
+									<a class="sk__iconbox-icon-link" target="_blank" href="https://github.com/safaroww">
 										<span class="sk__flex-center sk__iconbox-icon"><span class="icon-github1 sk__gradient-fancy-text"></span></span>
 										<span class="sk__iconbox-icon-dash"></span>
 									</a>
-									<a class="sk__iconbox-text-link gradient-links-bright" href="page-service-item.html">
+									<a class="sk__iconbox-text-link gradient-links-bright" target="_blank" href="https://github.com/safaroww">
 										<h5>GitHub</h5>
 									</a>
 									{% comment %} <p>The best Dark HTML Template, Hero Sliders, Custom Effects, Clean Code and more...</p> {% endcomment %}
@@ -990,11 +990,11 @@
 							</div>
 							<div class="col-12 col-sm-6 col-lg-4">
 								<div class="sk__iconbox">
-									<a class="sk__iconbox-icon-link" href="page-service-item.html">
+									<a class="sk__iconbox-icon-link" target="_blank" href="https://www.twitch.tv/safaroww">
 										<span class="sk__flex-center sk__iconbox-icon"><span class="icon-twitch1 sk__gradient-fancy-text"></span></span>
 										<span class="sk__iconbox-icon-dash"></span>
 									</a>
-									<a class="sk__iconbox-text-link gradient-links-bright" href="page-service-item.html">
+									<a class="sk__iconbox-text-link gradient-links-bright" target="_blank" href="https://www.twitch.tv/safaroww">
 										<h5>Twitch</h5>
 									</a>
 									{% comment %} <p>Unique, Beautiful & Custom never before seen Effects designed & crafted from scratch</p> {% endcomment %}
@@ -1002,11 +1002,11 @@
 							</div>
 							<div class="col-12 col-sm-6 col-lg-4">
 								<div class="sk__iconbox">
-									<a class="sk__iconbox-icon-link" href="page-service-item.html">
+									<a class="sk__iconbox-icon-link" target="_blank" href="https://twitter.com/asifseferov1">
 										<span class="sk__flex-center sk__iconbox-icon"><span class="icon-twitter1 sk__gradient-fancy-text"></span></span>
 										<span class="sk__iconbox-icon-dash"></span>
 									</a>
-									<a class="sk__iconbox-text-link gradient-links-bright" href="page-service-item.html">
+									<a class="sk__iconbox-text-link gradient-links-bright" target="_blank" href="https://twitter.com/asifseferov1">
 										<h5>Twitter</h5>
 									</a>
 									{% comment %} <p>$200 per year added value, with premium GreenSock GSAP library included for free</p> {% endcomment %}
@@ -1014,11 +1014,11 @@
 							</div>
 							<div class="col-12 col-sm-6 col-lg-4">
 								<div class="sk__iconbox">
-									<a class="sk__iconbox-icon-link" href="page-service-item.html">
+									<a class="sk__iconbox-icon-link" target="_blank" href="https://www.youtube.com/channel/UCGi-pVWbinPqSRQSDASYSyg">
 										<span class="sk__flex-center sk__iconbox-icon"><span class="icon-youtube1 sk__gradient-fancy-text"></span></span>
 										<span class="sk__iconbox-icon-dash"></span>
 									</a>
-									<a class="sk__iconbox-text-link gradient-links-bright" href="page-service-item.html">
+									<a class="sk__iconbox-text-link gradient-links-bright" target="_blank" href="https://www.youtube.com/channel/UCGi-pVWbinPqSRQSDASYSyg">
 										<h5>Youtube</h5>
 									</a>
 									{% comment %} <p>Designs ready for real-world use, have an awesome looking website done within a day!</p> {% endcomment %}
@@ -1026,11 +1026,11 @@
 							</div>
 							<div class="col-12 col-sm-6 col-lg-4">
 								<div class="sk__iconbox">
-									<a class="sk__iconbox-icon-link" href="page-service-item.html">
+									<a class="sk__iconbox-icon-link" target="_blank" href="https://www.linkedin.com/in/asif-safarov-b49465247/">
 										<span class="sk__flex-center sk__iconbox-icon"><span class="icon-linkedin1 sk__gradient-fancy-text"></span></span>
 										<span class="sk__iconbox-icon-dash"></span>
 									</a>
-									<a class="sk__iconbox-text-link gradient-links-bright" href="page-service-item.html">
+									<a class="sk__iconbox-text-link gradient-links-bright" target="_blank" href="https://www.linkedin.com/in/asif-safarov-b49465247/">
 										<h5>Linkedin</h5>
 									</a>
 									{% comment %} <p>Perfect balance between effects and fast load, the theme comes optimized & ready!</p> {% endcomment %}
@@ -1078,16 +1078,16 @@
 				<!-- /.sk__services-section -->
 
 
-				<section class="sk__deco-row-section">
+				{% comment %} <section class="sk__deco-row-section">
 					<div class="container-fluid">
 						<div class="row sk__deco-row dark-shade-7-bg dark-shade-5-border"></div>
 					</div>
-				</section>
+				</section> {% endcomment %}
 
 
 				<!-- Skills Section
 				================================================== -->
-				<section id="skills" class="sk__skills sk__py-m">
+				{% comment %} <section id="skills" class="sk__skills sk__py-m">
 
 					<div class="container sk__supercontainer">
 						<!-- Section Header -->
@@ -1173,21 +1173,21 @@
 						
 					</div>
 
-				</section>
+				</section> {% endcomment %}
 				<!-- /.sk__skills -->
 
 
-				<section class="sk__deco-row-section">
+				{% comment %} <section class="sk__deco-row-section">
 					<div class="container-fluid">
 						<div class="row sk__deco-row dark-shade-7-bg dark-shade-5-border"></div>
 					</div>
-				</section>
+				</section> {% endcomment %}
 
 
 
 				<!-- Contact Us Section
 				================================================== -->
-				<section id="contact-us" class="sk__contact-us sk__py-m sk__parallax-background-section sk__flex-center-y">
+				{% comment %} <section id="contact-us" class="sk__contact-us sk__py-m sk__parallax-background-section sk__flex-center-y">
 					<div class="sk__parallax-background-element sk__absolute sk__image-back-cover"></div>
 					<div class="sk__tint sk__absolute"></div>
 					<div class="container sk__powercontainer">
@@ -1222,7 +1222,7 @@
 						</div>
 					</div>
 
-				</section>
+				</section> {% endcomment %}
 				<!-- /.sk__contact-us -->
 
 
@@ -1238,10 +1238,10 @@
 
 						<div class="row footer-top">
 							<div class="col-12 col-sm-6 top-footer-logo">
-								<img src="assets/images/logo-footer.png" alt="Website logo for the footer.">
+								<img src="{% static 'assets/images/nobg-glob-nav.png' %}" alt="Website logo for the footer.">
 							</div>
 							<div class="col-12 col-sm-6 top-footer-tagline">
-								<h5 class="h5-elegant">ADVANCEMENT IN <strong>DESIGN</strong></h5>
+								<h5 class="h5-elegant">FULL STACK <strong>DEVELOPER</strong></h5>
 							</div>
 						</div>
 
@@ -1250,30 +1250,30 @@
 						<div class="row footer-main text-center text-sm-start">
 							<div class="col-md-12 col-lg-6 footer-main-large-col mb-4 mb-lg-0">
 								<div class="fancy-gradient-text-box">
-									<h3 class="h3-elegant sk__gradient-fancy-text">Start your journey now.</h3>
+									<h3 class="h3-elegant sk__gradient-fancy-text">SafaroW</h3>
 								</div>	
-								<p class="p-v2 mw-440">Salvia vape blue bottle bespoke wolf celiac quinoa cloud bread letterpress hammock photo booth. Palo santo vexillologist venmo shaman pitchfork tote bag.</p>
-								<h5>Manhattan Studio</h5>
-								<p class="p-v2 mw-440"><span>1000 Park Avenue Manhattan, </span><span>NY 10001, </span><span>+1 (0) 212 555-0475 </span><br /><span>info@website.com</span></p>
+								<p class="p-v2 mw-440">I am 19 and i am a junior Full Stack Django, React Developer and Python Engineer. Highly motivated and eager to research, and selfdevelopment.</p>
+								{% comment %} <h5>Manhattan Studio</h5> {% endcomment %}
+								{% comment %} <p class="p-v2 mw-440"><span>1000 Park Avenue Manhattan, </span><span>NY 10001, </span><span>+1 (0) 212 555-0475 </span><br /><span>info@website.com</span></p> {% endcomment %}
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-3 footer-main-small-col widget_nav_menu">
-								<h5>Skilltech Dark&#8198;star Web</h5>
+								<h5>Sections</h5>
 								<ul>
 									<li>
-										<a href="#" class="footer-main-links gradient-links">About Dark&#8198;star Theme</a>
+										<a href="#home" class="footer-main-links gradient-links">Home</a>
 									</li>
 									<li>
-										<a href="#" class="footer-main-links gradient-links">Portfolio & Works</a>
+										<a href="#about-us" class="footer-main-links gradient-links">About Me</a>
 									</li>
 									<li>
-										<a href="#" class="footer-main-links gradient-links">Pricing & Terms</a>
+										<a href="#Portfolio" class="footer-main-links gradient-links">Portfolio</a>
 									</li>
 									<li>
-										<a href="#" class="footer-main-links gradient-links">Skills & Story</a>
+										<a href="#services" class="footer-main-links gradient-links">Socials</a>
 									</li>
-									<li>
+									{% comment %} <li>
 										<a href="#" class="footer-main-links gradient-links">Contact Us</a>
-									</li>
+									</li> {% endcomment %}
 								</ul>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-3 footer-main-small-col">
@@ -1289,7 +1289,7 @@
 													<a class="social-icons" href="https://www.twitch.tv/safaroww" target="_blank"><span><span class="icon-twitch1"></span></span></a>
 													<a class="social-icons" href="https://twitter.com/asifseferov1" target="_blank"><span><span class="icon-twitter1"></span></span></a>
 													<a class="social-icons" href="https://www.linkedin.com/in/asif-safarov-b49465247/" target="_blank"><span><span class="icon-linkedin1"></span></span></a>
-													<a class="social-icons" href="https://www.youtube.com/channel/UCGi-pVWbinPqSRQSDASYSyg" target="_blank"><span><span class="icon-youtube1"></span></span></a>
+													{% comment %} <a class="social-icons" href="https://www.youtube.com/channel/UCGi-pVWbinPqSRQSDASYSyg" target="_blank"><span><span class="icon-youtube1"></span></span></a> {% endcomment %}
 												</div>
 											</div>
 										</section>
@@ -1299,7 +1299,7 @@
 									<div class="col">
 										<!-- Widget - Subscribe
 										================================================== -->
-										<div class="widget custom_subscribe_widget">
+										{% comment %} <div class="widget custom_subscribe_widget">
 											<div class="sk__widget-inner">
 												
 												<!-- Preview Only Static Form -->
@@ -1311,7 +1311,7 @@
 												</form>
 
 											</div>
-										</div>
+										</div> {% endcomment %}
 										<!-- /.custom_subscribe_widget -->
 									</div>
 								</div>
@@ -1322,15 +1322,15 @@
 
 						<div class="row footer-bottom">
 							<div class="col-xs-12 col-sm-6 col-md-4 text-center text-sm-start">
-								<h5>Skilltech Dark&#8198;star Web</h5>
+								<h5>SafaroW</h5>
 							</div>
 							<div class="col-12 col-md-4 order-xs-3 order-sm-3 order-md-2 text-center text-sm-start text-md-center">
-								<p class="p-footer-copyright">Copyright © 2022    <a href="http://www.skilltechwebdesign.com/" target="_blank">SkilltechWebDesign.com</a></p>
+								<p class="p-footer-copyright">Copyright © 2022    <a href="https://safaroww.com" target="_blank">safaroww.com</a></p>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-4 order-sm-2 order-md-3 text-center text-sm-end">
-								<a class="footer-bottom-right-links" href="#" target="_blank">Privacy</a>
+								{% comment %} <a class="footer-bottom-right-links" href="#" target="_blank">Privacy</a>
 								<a class="footer-bottom-right-links" href="#" target="_blank">Terms</a>
-								<a class="footer-bottom-right-links" href="#" target="_blank">Contact</a>
+								<a class="footer-bottom-right-links" href="#" target="_blank">Contact</a> {% endcomment %}
 							</div>
 						</div>
 					</div>

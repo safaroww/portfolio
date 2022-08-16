@@ -90,7 +90,7 @@
 
 /* bura loader sekli loading */ 
 .mcurtain-center {
-	background-image: url(../images/safarow-safarow.jpg);
+	background-image: url(../images/nobg-glob-nav.png);
 	left: 33.333%;
 }
 
@@ -4963,7 +4963,7 @@ span.numbers-deco {
 }
 
 .about-right-image {
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/safarow-safarow.jpg);
 	margin-bottom: 50px;
 }
 
